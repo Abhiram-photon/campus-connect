@@ -1,0 +1,46 @@
+export const SKILL_CHOICES = [
+  "C",
+  "C++",
+  "Java",
+  "Python",
+  "JavaScript",
+  "TypeScript",
+  "React",
+  "Node.js",
+  "SQL",
+  "PostgreSQL",
+  "Machine Learning",
+  "Data Analysis",
+  "UI/UX",
+  "Figma",
+  "Cybersecurity",
+  "Embedded Systems",
+  "Arduino",
+  "Cloud Computing",
+  "Git",
+  "HTML & CSS",
+  "Next.js",
+  "Public Speaking",
+  "Research",
+  "Technical Writing",
+  "Project Management",
+] as const;
+
+export const DEPARTMENTS = [
+  "Computer Science & Engineering",
+  "Information Technology",
+  "Electronics & Communication",
+  "Electrical Engineering",
+  "Mechanical Engineering",
+  "Civil Engineering",
+  "Business & Management",
+  "Design",
+  "Sciences",
+  "Other",
+] as const;
+
+export const ROLE_LABELS = {
+  student: "Student",
+  faculty: "Faculty",
+  organizer: "Organizer",
+} as const;
